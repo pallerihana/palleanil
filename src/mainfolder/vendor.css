@@ -1,0 +1,67 @@
+/* Container for centering the form */
+.vendor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e3f2fd;
+  }
+  
+  /* Form styling */
+  .vendor-form {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  .vendor-heading {
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Input fields */
+  .vendor-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #b0bec5;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  .vendor-input:focus {
+    border-color: #42a5f5;
+  }
+  
+  /* Button styling */
+  .vendor-button {
+    width: 100%;
+    padding: 12px;
+    background: #42a5f5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .vendor-button:hover {
+    background: #1e88e5;
+  }
+  
+  /* Error message styling */
+  .vendor-error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
